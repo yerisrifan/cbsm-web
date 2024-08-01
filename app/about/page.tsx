@@ -5,7 +5,7 @@ type Props = {};
 
 const page = (props: Props) => {
   return (
-    <div className="w-full mx-auto  h-screen overflow-hidden -mt-16 -z-10">
+    <div className="w-full mx-auto h-screen overflow-hidden -mt-16 -z-10">
       <Vortex
         backgroundColor="black"
         rangeY={800}
@@ -13,7 +13,7 @@ const page = (props: Props) => {
         baseHue={120}
         className="flex items-center flex-col justify-center px-2 md:px-10  py-8 w-full h-[600px]"
       >
-        <div className="font-[sans-serif] text-white bg-stone-900 px-6 mt-32 py-12">
+        <div className="font-[sans-serif] min-h-screen text-white bg-stone-900 px-6 mt-40 py-12">
           <div className="grid lg:grid-cols-2 gap-8 max-lg:max-w-2xl mx-auto">
             <div className="text-left">
               <h2 className="text-4xl font-extrabold mb-6">Welcome to CBSM</h2>
