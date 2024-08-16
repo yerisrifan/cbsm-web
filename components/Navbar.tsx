@@ -27,7 +27,7 @@ const Navbar = (props: Props) => {
           <FaTiktok />
           <FaTwitter />
         </div>
-        <div className="text-white cursor-pointer">
+        <div className="flex md:hidden text-white cursor-pointer">
           <FiMenu onClick={() => setShowMenu(!showMenu)} />
         </div>
       </div>

@@ -1,5 +1,7 @@
 import React from "react";
 import { Vortex } from "./ui/vortex";
+import { DiAndroid } from "react-icons/di";
+import { FaApple } from "react-icons/fa";
 
 type Props = {};
 
@@ -20,9 +22,20 @@ const Hero = (props: Props) => {
           Ultimate solution for managing and optimizing canary breeding.
         </p>
         <div className="flex flex-col sm:flex-row items-center gap-4 mt-6">
-          <button className="px-4 py-2 bg-primary-400 hover:bg-primary-200 transition duration-200 rounded-lg text-white shadow-[0px_2px_0px_0px_#FFFFFF40_inset]">
-            Launch App
-          </button>
+          <a
+            type="button"
+            href="/cbsm.1.2.3.apk"
+            className="flex items-center gap-2 px-4 py-2 bg-primary-400 hover:bg-primary-200 transition duration-200 rounded-lg text-white shadow-[0px_2px_0px_0px_#FFFFFF40_inset]"
+          >
+            <DiAndroid /> Android
+          </a>
+          <a
+            href="https://apps.apple.com/id/app/cbsm/id6593665827?l=id"
+            type="button"
+            className="flex cursor-pointer items-center gap-2 px-4 py-2 bg-primary-400 hover:bg-primary-200 transition duration-200 rounded-lg text-white shadow-[0px_2px_0px_0px_#FFFFFF40_inset]"
+          >
+            <FaApple size={18} /> IOS
+          </a>
         </div>
       </Vortex>
     </div>
