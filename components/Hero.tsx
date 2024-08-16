@@ -24,7 +24,7 @@ const Hero = (props: Props) => {
         <div className="flex flex-col sm:flex-row items-center gap-4 mt-6">
           <a
             type="button"
-            href="/cbsm.1.2.3.apk"
+            href="https://app.cbsm.co.id/uploads/cbsm-1.2.3.apk"
             className="flex items-center gap-2 px-4 py-2 bg-primary-400 hover:bg-primary-200 transition duration-200 rounded-lg text-white shadow-[0px_2px_0px_0px_#FFFFFF40_inset]"
           >
             <DiAndroid /> Android
